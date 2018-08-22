@@ -146,3 +146,20 @@ footer{
     line-height: 48px;
     text-align: center;
 }
+
+@media screen and (max-width:640px ) {
+
+    .mainconent{
+        width: 100% !important;
+    }
+
+    .subcontainer{
+        width: 100%;
+    }
+
+    .profilepic {
+        float: none;
+        margin: auto;
+        text-wrap: normal;
+    }
+}
